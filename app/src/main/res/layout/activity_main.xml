@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/onboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:text="Team work all"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convalis vitae. dictum justo, iaculis id." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cras a ac augue netus egestas semper" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="varius facilisis id." />
+
+    <ImageView
+        android:src="@drawable/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:layout_marginHorizontal="10dp"
+            android:paddingHorizontal="50dp"
+            android:textColor="#ffffff"
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/black"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:paddingHorizontal="50dp"
+            app:cornerRadius="8dp"
+            android:textStyle="normal"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#2C61E6"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

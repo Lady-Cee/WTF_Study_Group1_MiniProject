@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets Sign you in"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back,"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="22dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have been missed"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="22dp"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email, phone &amp; username"
+            android:inputType="text"
+            android:textSize="14sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:paddingStart="200dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="14sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#2C61E6"
+        app:cornerRadius = "8dp"
+        android:layout_margin="20dp"
+        android:text="Sign in"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1.2dp"
+            android:layout_weight="0.2"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingHorizontal="8dp"
+            android:text="Or"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1.2dp"
+            android:layout_weight="0.2"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="-40dp"
+        >
+        <ImageView
+            android:src="@drawable/google_icon"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+
+            />
+        <ImageView
+            android:src="@drawable/fb_logo"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/apple"
+            android:layout_width="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"/>
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor= "#2C61E6"
+            android:layout_marginRight="30dp"
+            android:text="Register Now"/>
+    </LinearLayout>
+
+
+</LinearLayout>
