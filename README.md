@@ -1,7 +1,7 @@
 # WTF_Study_Group1_MiniProject
 The people that contributed to the project are:
 
-1. Cynthia Enweinwu-Arinze
+1. Cynthia Enweonwu-Arinze
 2. Chidimma Onyejiuwa
 3. Amarahi Nwakaibeya
 4. Esibe Enih
